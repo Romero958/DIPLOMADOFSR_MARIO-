@@ -1,0 +1,8 @@
+Northwind> db.products.find({UnitPrice:{$gt:12}})
+Northwind> db.products.find({UnitPrice:{$lt:36}})
+Northwind> db.products.find({UnitPrice:{$gte:20}})
+Northwind> db.products.find({UnitPrice:{$lte:42}})
+Northwind> db.products.find({CategoryID:{$eq:7}})
+Northwind> db.orders.find({CustomerID:{$eq:"BLONP"}})
+Northwind> db.orders.find({ShipCity:{$eq:"Oulu"}})
+Northwind> db.orders.find({ShipCountry:{$eq:"USA"}})
